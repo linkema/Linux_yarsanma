@@ -1,6 +1,7 @@
 #include"my.h"
 void main()
 {
+	int z=0;	
 	fddes=open(des,flags,0644);
 	if(fddes<0)
 	{
