@@ -1,6 +1,5 @@
-#include"stdio.h"
-#include"stdlib.h"
-main()
+#include"my.h"
+void fun()
 {
 int a[100];
 int i,j=0;
@@ -30,5 +29,5 @@ b=a[i];
 /*最大最小值*/
 printf("\n");
 printf("the max number is %d,the min number is %d",c,b);
-getch();
+getchar();
 }
