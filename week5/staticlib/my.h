@@ -1,3 +1,4 @@
 #include"stdio.h"
 #include"stdlib.h"
-void fun();
+int* fun();
+int fun1();

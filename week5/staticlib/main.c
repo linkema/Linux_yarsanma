@@ -1,6 +1,6 @@
 #include"/home/rlk/linux_yarsanma/week5/staticlib/my.h"
 int main()
 {
-	fun();
+	fun1(fun());
 	return 0;
 }
