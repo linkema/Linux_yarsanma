@@ -5,8 +5,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <dirent.h>
 void mode_to_letter(int mode,char *str);
-FILE* fcreate(FILE* fp);
+void fcreate(FILE* fp);
 unsigned randomFileNameNo();
-FILE* fmodify(FILE* fp);
+void fmodify(FILE* fp);
+void frread(FILE* );
+void fwwrite(FILE* );
+void fstatus(FILE* );
+void menu();
+void freadList(char *path, int depth);
+
 

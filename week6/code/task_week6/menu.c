@@ -20,17 +20,19 @@ void menu(){
 				case 0:
 					exit(0);
 				case 1:
-					fp=fcreate(fp);
+					fcreate(fp);
 					break;
 				case 2:
+					fwwrite(fp);
 					break;
 				case 3:
+					frread(fp);
 					break;
 				case 4:
-					fp=fmodify(fp);
+					fmodify(fp);
 					break;
 				case 5:
-					fp=fstatus(fp);
+					fstatus(fp);
 					break;
 				default:
 					printf("\ninput error!!!");
