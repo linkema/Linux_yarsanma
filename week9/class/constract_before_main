@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<sys/types.h>
+int x=100;
+int main()
+{
+	int y=0;
+	static int w=0;
+	int ret;
+	printf("test1:pid=%ld,ppid=%ld\n",getpid(),getppid());
+	printf("test1:address x=%d,y=%d,w=%d\n"&x,&y,&w);
+	ret=system("/home/rlk/linux_yarsanma/week9/class/...c");
+	
+	sleep(10);	
+	return 0;
+}
