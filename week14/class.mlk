@@ -1,0 +1,6 @@
+线程就是可以共享资源的线程
+1.内核级线程
+	
+2.用户级线程
+	线程号(结构体) pthread_t 
+	int	pthread_create(&tidp（线程号）,NULL(设定运行环境),threadfun（函数指针）,NULL（函数参数）);返回值int 类型
